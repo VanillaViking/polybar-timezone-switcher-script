@@ -1,7 +1,9 @@
 # polybar-timezone-switcher-script
 A custom polybar script to easily switch the timezone of the date displayed.
 
-## Config
+![tz](https://user-images.githubusercontent.com/46510831/194821180-edaae30b-56d1-44db-b49a-0c18343add89.gif)
+
+## Configuration
 
 ```ini
 [module/countdown]
