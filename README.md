@@ -5,6 +5,7 @@ A custom polybar script to easily switch the timezone of the date displayed.
 In the directory where your polybar config file resides, run:
 
 `echo 0 > tzcount`
+
 `echo UTC-0 >> timezones`
 
 Replace `UTC-0` with the timezone of your choice. You can add as many timezones as you desire.
@@ -30,5 +31,6 @@ interval = 0.1
 format-underline = #28d3b1
 ```
 To change the date format, replace `"%I:%M %p"` in the exec command with the format of your choice.
+
 Formatting sequences can be found in `man date`.
 
