@@ -3,7 +3,7 @@ A custom polybar script to easily switch the timezone of the date displayed.
 
 ## Config
 
-```
+```ini
 [module/countdown]
 type = custom/script
 exec = ~/.config/polybar/termdown.sh
