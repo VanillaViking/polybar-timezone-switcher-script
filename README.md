@@ -1,6 +1,9 @@
 # polybar-timezone-switcher-script
 A custom polybar script to easily switch the timezone of the date displayed.
 
+![tz](https://user-images.githubusercontent.com/46510831/194831836-a6026449-3702-480d-b079-bfb092daed5f.gif)
+
+
 # Setup
 In the directory where your polybar config file resides, run:
 
