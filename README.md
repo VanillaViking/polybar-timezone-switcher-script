@@ -7,7 +7,7 @@ A custom ![polybar](https://github.com/polybar/polybar) script to easily switch 
 # Setup
 In the directory where your polybar config file resides, run:
 
-`echo 0 > tzcount`
+`echo 1 > tzcount`
 
 `echo UTC-0 >> timezones`
 
