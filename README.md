@@ -7,8 +7,6 @@ A custom ![polybar](https://github.com/polybar/polybar) script to easily switch 
 # Setup
 In the directory where your polybar config file resides, run:
 
-`echo 1 > tzcount`
-
 `echo UTC-0 >> timezones`
 
 Replace `UTC-0` with the timezone of your choice. You can add as many timezones as you desire.
