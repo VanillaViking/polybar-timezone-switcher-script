@@ -11,6 +11,8 @@ In the directory where your polybar config file resides, run:
 
 Replace `UTC-0` with the timezone of your choice. You can add as many timezones as you desire.
 
+Copy `tz-switcher.sh` into your config directory
+
 ## Configuration
 
 Paste this into your polybar config:
