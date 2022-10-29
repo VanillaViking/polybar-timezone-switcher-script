@@ -21,7 +21,6 @@ type = custom/script
 exec = ~/.config/polybar/tz-switcher.sh
 tail = true
 click-left = kill -USR1 %pid%
-interval = 5
 ```
 To change the date format, replace `FORMAT` variable in tz-switcher.sh with the format of your choice.
 

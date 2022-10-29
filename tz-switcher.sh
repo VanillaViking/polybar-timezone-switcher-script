@@ -28,7 +28,7 @@ trap "click" USR1
 
 while true; do
   print_date
-  sleep 60 &
+  sleep 5 &
   wait
 done
 
