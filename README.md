@@ -18,11 +18,12 @@ Paste this into your polybar config:
 ```ini
 [module/time-switch]
 type = custom/script
-exec = TZ=$(sed -n $(awk '{print $1}' ~/.config/polybar/tzcount)p ~/.config/polybar/timezones) date +"%I:%M %p" | echo "$(sed -n $(awk '{print $1}' ~/.config/polybar/tzcount)p ~/.config/polybar/timezones): $(cat -)"
-click-left = if [ $(awk '{print $1}' ~/.config/polybar/tzcount) -eq $(wc -l ~/.config/polybar/timezones | awk '{print $1}') ]; then awk '{print $1 - $1 + 1}' ~/.config/polybar/tzcount > ~/.config/polybar/tmp && mv ~/.config/polybar/tmp ~/.config/polybar/tzcount; else awk '{print $1 + 1}' ~/.config/polybar/tzcount > ~/.config/polybar/tmp && mv ~/.config/polybar/tmp ~/.config/polybar/tzcount; fi
-interval = 0.1
+exec = ~/.config/polybar/tz-switcher.sh
+tail = true
+click-left = kill -USR1 %pid%
+interval = 5
 ```
-To change the date format, replace `"%I:%M %p"` in the exec command with the format of your choice.
+To change the date format, replace `FORMAT` variable in tz-switcher.sh with the format of your choice.
 
 Formatting sequences can be found in `man date`.
 
