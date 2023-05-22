@@ -1,3 +1,9 @@
+# DISCLAIMER
+
+This script is outdated. Please use the [info-timezone](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/info-timezone) script in the official polybar scripts repository.
+
+
+
 # Timezone Switcher
 A custom ![polybar](https://github.com/polybar/polybar) script to easily switch the timezone of the date displayed.
 
